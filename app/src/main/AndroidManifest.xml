@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.somesh.somesh_2048">
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HOME"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GO_TO_LOGIN"
+            android:label="LOGIN"/>
+        <activity android:name=".GO_TO_SIGNUP"
+            android:label="SIGNUP"/>
+        <activity android:name=".GAME_2048"
+            android:label="GAME"/>
+        <activity android:name=".MUSIC_PLAYER"
+            android:label="MUSIC PLAYER" />
+        <activity android:name=".CALCULATOR"
+            android:label="CALCULATOR"/>
+        <activity android:name=".CAMERA"
+            android:label="CAMERA" />
+        <activity android:name=".EXTRA_FUNCTION"
+            android:label="FUNCTIONS" />
+        <activity android:name=".SENSOR_MUSIC_PLAYER"
+            android:label="SENSOR MUSIC PLAYER"/>
+        <activity android:name=".GRAVITY_MISOC_PLAYER"
+            android:label="GRAVITY MUSIC PLAYER"/>
+        <activity android:name=".QUIZ"
+            android:label="QUIZ"/>
+        <activity android:name=".Q1"
+            android:label="Q1"/>
+        <activity android:name=".Q2"
+            android:label="Q2"/>
+        <activity android:name=".Q3"
+            android:label="Q3"/>
+        <activity android:name=".Q4"
+            android:label="Q4"/>
+        <activity android:name=".Q5"
+            android:label="Q5"/>
+        <activity android:name=".QUIZ_RESULT"
+            android:label="QUIZ RESULT"/>
+    </application>
+
+</manifest>
