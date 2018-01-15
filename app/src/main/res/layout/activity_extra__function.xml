@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.somesh.somesh_2048.EXTRA_FUNCTION"
+    android:background="#121111">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:src="@drawable/a3"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text="SENSOR MUSIC PLAYER"
+        android:id="@+id/button26"
+        android:layout_marginTop="64dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text="GRAVITY MUSIC PLAYER"
+        android:id="@+id/button27"
+        android:layout_below="@+id/button26"
+        android:layout_alignLeft="@+id/button26"
+        android:layout_alignStart="@+id/button26"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text="QUIZ"
+        android:id="@+id/button28"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/button27"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:text="BACK"
+        android:id="@+id/button32"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/button28"
+        android:layout_alignStart="@+id/button28"
+        android:layout_marginBottom="27dp" />
+</RelativeLayout>

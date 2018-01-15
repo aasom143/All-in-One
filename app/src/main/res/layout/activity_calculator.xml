@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.somesh.somesh_2048.CALCULATOR"
+    android:background="#757171">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/aaaa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#e9dddd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editText6"
+        android:inputType="number"
+        android:layout_marginTop="49dp"
+        android:hint="ENTER THE NUMBER"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#424747" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/button14"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/button15"
+        android:layout_alignTop="@+id/button14"
+        android:layout_toRightOf="@+id/button14"
+        android:layout_toEndOf="@+id/button14" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/button16"
+        android:layout_above="@+id/button17"
+        android:layout_toRightOf="@+id/button15"
+        android:layout_toEndOf="@+id/button15" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/button17"
+        android:layout_below="@+id/button15"
+        android:layout_toLeftOf="@+id/button19"
+        android:layout_toStartOf="@+id/button19" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/button18"
+        android:layout_below="@+id/button14"
+        android:layout_toLeftOf="@+id/button15"
+        android:layout_toStartOf="@+id/button15" />
+
+    <Button
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:id="@+id/button19"
+        android:layout_below="@+id/button17"
+        android:layout_toRightOf="@+id/button15"
+        android:layout_toEndOf="@+id/button15" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="="
+        android:id="@+id/button20"
+        android:layout_alignBottom="@+id/button23"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="x^y"
+        android:id="@+id/button21"
+        android:layout_alignTop="@+id/button16"
+        android:layout_toRightOf="@+id/button19"
+        android:layout_toEndOf="@+id/button19" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="!"
+        android:id="@+id/button22"
+        android:layout_alignTop="@+id/button17"
+        android:layout_toRightOf="@+id/button17"
+        android:layout_toEndOf="@+id/button17" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="sqrt"
+        android:id="@+id/button23"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignStart="@+id/button21" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="1/x"
+        android:id="@+id/button24"
+        android:layout_alignTop="@+id/button19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="x^2"
+        android:id="@+id/button25"
+        android:layout_alignTop="@+id/button19"
+        android:layout_toLeftOf="@+id/button19"
+        android:layout_toStartOf="@+id/button19" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:inputType="number"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:hint="ENTER THE NUMBER"
+        android:textColor="#424747" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:textSize="33sp"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="#353131" />
+
+</RelativeLayout>
